@@ -1,0 +1,67 @@
+.border {
+  background-color: rgb(0, 0, 0);
+  border: 2px solid black;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  margin-right: 15px;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+}
+.navbar .form-inline .form-control {
+  width: 300px;
+}
+.navbar .navbar-nav .btn-wishlist {
+  margin-right: 15px;
+}
+body > div.row.mb-4.shadow > div > nav > a > img{
+    width: 2rem;
+}
+
+
+/* Best deals sectioon ki css */
+
+/* .card{
+    width: 11rem!important;
+    margin-right: 2px!important;
+    margin-left: 2px!important;
+} */
+
+@media (max-width: 767px) {
+  .card {
+    /* Adjust the width for mobile devices */
+    width: 9rem;
+  }
+}
+
+
+.fontSize{
+  font-size: 1.3rem;
+}
+
+
+.card{
+  transition: ease all 0.5s;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
+
+
+/* Category to bag section  */
+
+.toBagImages{
+  width: 10rem;
+  border-radius: 7rem;
+}
+
+.card-transition{
+  transition: ease all 0.5s;
+}
+
+.card-transition:hover{
+  transform: translateY(-10px);
+}

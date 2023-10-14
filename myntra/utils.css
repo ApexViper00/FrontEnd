@@ -1,0 +1,26 @@
+html{
+  scroll-behavior: smooth;
+}
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* .heading{
+    font-family: 'Rowdies', cursive;
+    font-size: 1vw;
+} */
+
+.heading {
+    font-family: 'Rowdies', cursive;
+    font-size: 4vw; /* Set default font size based on viewport width */
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+        font-family: 'Rowdies', cursive;
+      font-size: 6vw; /* Change font size for smaller screens */
+    }
+  }
